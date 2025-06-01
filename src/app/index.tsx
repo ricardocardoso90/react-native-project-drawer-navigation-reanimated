@@ -1,8 +1,8 @@
-import { DrawerToggleButton } from "@react-navigation/drawer";
 import { Image, StyleSheet, Text, View } from "react-native";
+import { DrawerToggleButton } from "@react-navigation/drawer";
 import { DrawerSceneWrapper } from "../components/drawer-scene-wrapper";
 
-export default function App() {
+export default function Home() {
   return (
     <DrawerSceneWrapper>
       <View style={styles.container}>

@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { useDrawerProgress } from '@react-navigation/drawer'
+import { useDrawerProgress } from '@react-navigation/drawer';
 import Animated, { Extrapolation, interpolate, useAnimatedStyle } from "react-native-reanimated";
 
 type Props = {
@@ -12,7 +12,7 @@ export function DrawerSceneWrapper({ children }: Props) {
     transform: [
       { scale: interpolate(progress.value, [0, 1], [1, 0.8], Extrapolation.CLAMP) },
       { translateX: interpolate(progress.value, [0, 1], [0, 200], Extrapolation.CLAMP) },
-      { rotateY: interpolate(progress.value, [0, 1], [0, -25], Extrapolation.CLAMP) + "deg"}
+      { rotateY: interpolate(progress.value, [0, 1], [0, -25], Extrapolation.CLAMP) + "deg" }
     ],
     borderRadius: 20,
     overflow: 'hidden',

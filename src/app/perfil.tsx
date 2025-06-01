@@ -2,14 +2,13 @@ import { StyleSheet, Text, View } from "react-native";
 import { DrawerToggleButton } from "@react-navigation/drawer";
 import { DrawerSceneWrapper } from "../components/drawer-scene-wrapper";
 
-export default function Notification() {
+export default function Perfil() {
   return (
     <DrawerSceneWrapper>
       <View style={styles.container}>
         <View style={styles.header}>
 
-          <Text style={styles.username}>Páginia de Notificação.</Text>
-
+          <Text style={styles.title}>Página do Perfil</Text>
           <DrawerToggleButton />
         </View>
       </View>
@@ -30,7 +29,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 7,
   },
-  username: {
+  title: {
     flex: 1,
     fontSize: 16,
     fontWeight: '700',
