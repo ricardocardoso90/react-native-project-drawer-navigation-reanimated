@@ -1,10 +1,10 @@
-# 📱 React Native Drawer Navigation com Reanimated
+# React Native Drawer Navigation com Reanimated
 
 Este projeto demonstra como implementar uma navegação lateral (Drawer) animada utilizando **React Native**, com suporte à gestos e animações fluidas via **React Native Reanimated**. Ideal para quem deseja uma experiência de navegação moderna e elegante em seus apps móveis.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
@@ -15,7 +15,7 @@ Este projeto demonstra como implementar uma navegação lateral (Drawer) animada
 
 ---
 
-## 🧰 Funcionalidades
+## Funcionalidades
 
 - Navegação lateral (Drawer) com animação suave
 - Animações personalizadas com Reanimated
@@ -25,10 +25,22 @@ Este projeto demonstra como implementar uma navegação lateral (Drawer) animada
 
 ---
 
-## 🔧 Instalação
+## Instalação
 
-Clone o repositório e instale as dependências:
+1. Instale as dependências:
 
-```bash
-npx create-expo-app@latest
-npm install
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+
+## Executando o Projeto
+
+1. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm start
+   # ou
+   yarn start
+   ```
