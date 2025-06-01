@@ -1,4 +1,4 @@
-# 📱 Menu Lateral Animado (drawer)
+# 📱 React Native Drawer Navigation com Reanimated
 
 Este projeto demonstra como implementar uma navegação lateral (Drawer) animada utilizando **React Native**, com suporte à gestos e animações fluidas via **React Native Reanimated**. Ideal para quem deseja uma experiência de navegação moderna e elegante em seus apps móveis.
 
